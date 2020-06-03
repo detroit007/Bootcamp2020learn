@@ -31,5 +31,5 @@ jobs:
     - name: installing surge
       run: npm install -g surge
       
-    - name: publish on surge 
+    - name: publish site code on surge 
       run:  surge ./ bootcamp2020learn.surge.sh --token ${{ secrets.SURGE_TOKEN }}
